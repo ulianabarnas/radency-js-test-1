@@ -8,7 +8,84 @@
     <link rel="icon" href="images/write.png" />
   </head>
   <body>
-    <button id="myButton">Click me!</button>
+    <table>
+      <thead>
+        <tr>
+          <th class="rounded-header" colspan="9"></th>
+        </tr>
+        <tr>
+          <th>&nbsp;</th>
+          <th scope="col">Name</th>
+          <th scope="col">Created</th>
+          <th scope="col">Category</th>
+          <th scope="col">Content</th>
+          <th scope="col">Dates</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#tasks"></use>
+            </svg>
+          </td>
+          <td>Shopping list</td>
+          <td>April 20, 2021</td>
+          <td>Task</td>
+          <td>Tomatoes, bread</td>
+          <td></td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#edit"></use>
+            </svg>
+          </td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#archive"></use>
+            </svg>
+          </td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#trash"></use>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#thoughts"></use>
+            </svg>
+          </td>
+          <td>The theory of evolution</td>
+          <td>April 27, 2021</td>
+          <td>Random Thought</td>
+          <td>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+            dolorum!
+          </td>
+          <td></td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#edit"></use>
+            </svg>
+          </td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#archive"></use>
+            </svg>
+          </td>
+          <td>
+            <svg width="20" height="20">
+              <use href="images/sprite.svg#trash"></use>
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="myButton">Create Note</button>
     <script src="js/main.js"></script>
   </body>
 </html>
